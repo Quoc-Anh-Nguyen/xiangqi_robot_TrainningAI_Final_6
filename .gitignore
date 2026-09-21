@@ -9,3 +9,20 @@ perspective.npy
 # Python cache files
 __pycache__/
 *.pyc
+
+# Dữ liệu huấn luyện & Artifacts lớn (không commit vào Git)
+data/
+runs/
+outputs/
+*.zip
+hand_detection/
+
+# Local Python virtual environments (machine-specific dependencies)
+.venv/
+.venv312/
+venv/
+env/
+.env
+ENV/
+VENV/
+
